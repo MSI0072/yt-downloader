@@ -25,7 +25,7 @@
             </div>
           </div>
           <div class="input-field second-wrap">
-            <input id="search" type="url" placeholder="Enter Link" name="link"/>
+            <input id="search" type="url" placeholder="Enter Link" name="link" required/>
           </div>
           <div class="input-field third-wrap">
             <button class="btn-search" type="submit">
