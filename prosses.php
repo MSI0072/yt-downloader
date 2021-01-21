@@ -102,3 +102,68 @@ if (isset($_GET['type']))
     }
 }
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ALL MEDIA DOWNLOADER</title>
+</head>
+<style>
+    body
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+    }
+
+    div
+    {
+        background-color: white;
+        width: 55%;
+        margin: auto;/*supaya ke tengah*/
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    div h2
+    {
+        color: darkorange;
+    }
+
+    div img
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+    a
+    {
+        text-decoration: none;
+        background-color: crimson;
+        color: white;
+        padding: 8px;
+        display: block;/*menjadikan elemen tipe blok*/
+        width: 120px;
+        text-align: center;
+        border-radius: 8px; 
+
+    }
+
+    a:hover
+    {
+        background-color: black;
+        transition-duration: 2s;
+        transition-property: all;/*ms edge*/
+        width: 150px;
+        padding: 15px;
+    }
+</style>
+<body>
+
+    <div>
+        <img src="<?php echo $thumbnail;?>">
+        <h2><?php echo $title;?></h2>
+        <a href="<?php echo $url;?>">Download</a><br>
+        <a href="index.php">Back</a>
+    </div>
+
+</body>
+</html>
