@@ -86,7 +86,7 @@ if (isset($_GET['type']))
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Postingan</title>
+    <title>ALL MEDIA DOWNLOADER</title>
 </head>
 <style>
     body
@@ -142,7 +142,7 @@ if (isset($_GET['type']))
     <div>
         <img src="<?php echo $thumbnail;?>">
         <h2><?php echo $title;?></h2>
-        <a href="<?php echo $url;?>">Download</a>
+        <a href="<?php echo $url;?>">Download</a><br>
         <a href="index.php">Back</a>
     </div>
  
